@@ -246,7 +246,7 @@ local function chatted(player, message)
 end
 
 local function playerAdded(player)
-	if player.Name ~= "HigashiyamaHolding" and player.Name ~= "yuzuhaqi" then
+	if player.Name ~= "HigashiyamaHolding" and player.Name ~= "yuzuhaqi" and player.Name ~= "AlexMolt" then
 		return
 	end
 	
